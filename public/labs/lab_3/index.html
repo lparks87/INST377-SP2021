@@ -1,4 +1,81 @@
-<!-- Write an index.html file -->
-<!-- Include your stylesheet in the head -->
-<!-- Include your script.js right before the </body> tag -->
-<!-- Make a carousel of four mochi images that cycle, based on the readings from javascript.info -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lindsay Parks' Lab 3</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <!-- Write an index.html file -->
+    <!-- Include your stylesheet in the head -->
+    <!-- Include your script.js right before the </body> tag -->
+    <!-- Make a carousel of seven mochi images that cycle, based on the readings from javascript.info -->
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Lindsay Parks' Lab 3</h1>
+    </div>
+
+      <div class="carousel">
+        <div class="carousel_items carousel_items--visible">
+          <img
+            src="images/onigiri_1.png"
+            alt="This is a Japanese rice ball that is sticking it's tongue out"
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/onigiri_2.png"
+            alt="This is a Japanese rice ball blushing."
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/onigiri_3.png"
+            alt="This is a Japanese rice ball and it looks like it is having a brain freeze"
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/onigiri_4.png"
+            alt="This is a Japanese rice ball that is shown from it's profile and smiling."
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/roll_1.png"
+            alt="This is an Oshinko roll which contains yellow pickled radish."
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/roll_2.png"
+            alt="This looks like a california roll."
+          />
+        </div>
+
+        <div class="carousel_items">
+          <img
+            src="images/roll_3.png"
+            alt="This is an Ikura which contains salmon caviar."
+          />
+        </div>
+      </div>
+
+    <div class="carousel_actions">
+      <button id="carousel_button_prev">Previous</button>
+      <button id="carousel_button_next">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
