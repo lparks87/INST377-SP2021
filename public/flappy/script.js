@@ -1,5 +1,5 @@
-const { random } = require('cypress/types/lodash')
-
+/*const { random } = require('cypress/types/lodash')
+*/
 document.addEventListener('DOMContentLoaded', () => {
   const bird = document.querySelector('.bird')
   const gameDisplay = document.querySelector('.game-container')
