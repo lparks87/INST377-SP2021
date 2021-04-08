@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     topObstacle.style.bottom = obstacleBottom + gap + 'px'
 
     function moveObstacle() {
-      obstacleLeft -= 2
+      obstacleLeft -=2
       obstacle.style.left = obstacleLeft + 'px'
       topObstacle.style.left = obstacleLeft + 'px'
 
