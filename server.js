@@ -56,7 +56,8 @@ app.route('/api')
       })
       .catch((err) => console.error(err));
 
-    res.json({data: json});
+    //res.json({data: json});
+    res.send("Hello World");
   });
 
 app.listen(port, async () => {
